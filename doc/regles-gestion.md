@@ -33,7 +33,7 @@
 - RG13 : La limitte de detectives est de 6
 - RG14 : Chaque personnage se trouve
 - RG15 : Tous les personnages commencent dans la même pièce
-- RG16 :
+- RG16 : Les personnages commencent dans la même pièce
 - RG17 :
 - RG18 :
 - RG19 :
