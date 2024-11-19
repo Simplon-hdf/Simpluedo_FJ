@@ -34,7 +34,7 @@
 - RG14 : Chaque personnage se trouve
 - RG15 : Tous les personnages commencent dans la même pièce
 - RG16 : Les personnages commencent dans la même pièce
-- RG17 :
+- RG17 : Le maitre du jeu peut ajouter, modifier et supprimer une pièce
 - RG18 :
 - RG19 :
 - RG20 :
