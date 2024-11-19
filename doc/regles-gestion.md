@@ -32,10 +32,4 @@
 
 - **RG16** : Les personnages peuvent se déplacer de salle en salle
 
-- **RG17** : Le maitre du jeu peut ajouter une pièce
-
-- **RG18** : Le maitre du jeu peut modifier une pièce
-
-- **RG19** : Le maitre du jeu peut supprimer une piècez
-
 ---
