@@ -1,10 +1,6 @@
-# Regles de gestion
+# Règles de gestion
 
 ![border](../assets/line/line-pink-point_l.png)
-
-# Liste
-
-![border](../assets/line/line-pink-point_r.png)
 
 - **RG1** : Chaque utilisateur doit choisir un role (maitre du jeu, détective ou observateur)
 
