@@ -1,7 +1,5 @@
 # Règles de gestion
 
-![border](../assets/line/line-pink-point_l.png)
-
 - **RG1** : Chaque utilisateur doit choisir un role (maitre du jeu, détective ou observateur)
 
 - **RG2** : Les détectives doivent incarner un personnage parmi les 6
@@ -40,8 +38,4 @@
 
 - **RG19** : Le maitre du jeu peut supprimer une piècez
 
-<a href="#sommaire">
-  <img src="../assets/button/back_to_top.png" alt="Back to top" style="width: 150px; height: auto;">
-</a>
-
-![border](../assets/line/border_deco_l.png)
+---
