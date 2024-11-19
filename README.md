@@ -21,7 +21,7 @@
 
 # Navigation
 
-- [Veille](./doc/annexe/veille.md)
+- [Regles de gestion](./doc/regles-gestion.md)
 
 ![border](./assets/line/line-pink-point_l.png)
 
