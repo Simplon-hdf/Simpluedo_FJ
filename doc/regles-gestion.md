@@ -32,9 +32,9 @@
 - RG12 : L'heure d'entrée d'un personnage dans une pièce est enregistré
 - RG13 : La limitte de detectives est de 6
 - RG14 : Chaque personnage se trouve
-- RG15 :
-- RG16 :
-- RG17 :
+- RG15 : Tous les personnages commencent dans la même pièce
+- RG16 : Les personnages commencent dans la même pièce
+- RG17 : Le maitre du jeu peut ajouter, modifier et supprimer une pièce
 - RG18 :
 - RG19 :
 - RG20 :
