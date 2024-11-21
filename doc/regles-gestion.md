@@ -4,7 +4,7 @@
 
 - **RG2** : Les détectives doivent incarner l'un des 6 personnages.
 
-- **RG3** : Une partie doti avoir un seul maitre du jeu.
+- **RG3** : Une partie doit avoir un seul maitre du jeu.
 
 - **RG4** : L'observateur n'incarne pas de personnage.
 
