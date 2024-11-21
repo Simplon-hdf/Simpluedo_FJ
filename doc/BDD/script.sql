@@ -8,6 +8,10 @@
 
 CREATE DATABASE simpluedo;
 
+-- ========================================
+-- 2. Création de l'administrateur
+-- ========================================
 
+CREATE USER simpluedo_admin;
 
 
