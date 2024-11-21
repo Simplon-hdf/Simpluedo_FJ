@@ -44,3 +44,14 @@ nom_personnage VARCHAR(50) NOT NULL);
 CREATE TABLE objet(
 id_objet INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
 nom_objet VARCHAR(50) NOT NULL);
+-- ==============================================
+-- 8. Création de la table 'visiter'
+-- ==============================================
+CREATE TABLE visiter(
+id_personnage INTEGER,
+id_salle INTEGER,
+heure_arrivee TIME,
+heure_sortie TIME,
+PRIMARY KEY(id_personnage, id_salle),
+FOREIGN KEY(id_personnage) REFERENCES personnage(id_personnage),
+FOREIGN KEY(id_salle) REFERENCES salle(id_salle));
