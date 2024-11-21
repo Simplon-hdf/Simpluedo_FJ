@@ -15,3 +15,9 @@
 - **RG10**: Il y a en tout 9 salles.
 - **RG11**: Une salle contient zéro ou plusieurs objets.
 
+## Gestion des objets
+- **RG12**: Un objet possède un identifiant unique.
+- **RG13**: Un objet possède un nom.
+- **RG14**: Il y a en tout 6 objets.
+
+ 
