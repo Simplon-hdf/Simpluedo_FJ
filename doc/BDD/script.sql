@@ -11,6 +11,12 @@ CREATE DATABASE simpluedo;
 -- ==============================================
 CREATE USER simpluedo_admin;
 -- ==============================================
--- 2. Ajout d'un mot de passe a l'adminisrateur
+-- 3. Ajout d'un mot de passe a l'adminisrateur
 -- ==============================================
 ALTER USER simpluedo_admin WITH PASSWORD 'admin';
+-- ==============================================
+-- 4. Création de la table 'utilisateur'
+-- ==============================================
+CREATE TABLE utilisateur(
+ uuid_utilisateur UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+ pseudo_utilisateur VARCHAR(50) NOT NULL);
