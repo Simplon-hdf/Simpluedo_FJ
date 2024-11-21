@@ -1,36 +1,10 @@
-# Règles de gestion
+# Règles de gestions 
 
-- **RG1** : Chaque utilisateur doit choisir un role (maitre du jeu, détective ou observateur).
-
-- **RG2** : Les détectives doivent incarner l'un des 6 personnages.
-
-- **RG3** : Une partie doit avoir un seul maitre du jeu.
-
-- **RG4** : L'observateur n'incarne pas de personnage.
-
-- **RG5** : Le maitre du jeu n'incarne pas de personnage.
-
-- **RG6** : Une partie contient 6 armes.
-
-- **RG7** : Une partie contient 9 salles.
-
-- **RG8** : Une pièce contient 0 ou N objets.
-
-- **RG9** : Un personnage peut visiter une pièce plusieurs fois.
-
-- **RG10** : Un personnage ne peut etre associé qu'à un utilisateur.
-
-- **RG11** : Un objet se trouve dans une pièce.
-
-- **RG12** : L'heure d'entrée d'un personnage dans une pièce est enregistrée.
-
-- **RG13** : La limite de détectives est de 6.
-
-- **RG14** : Chaque personnage se trouve dans une pièce à la fois
-
-- **RG15** : Tous les personnages commencent dans la même pièce
-
-- **RG16** : Les personnages peuvent se déplacer de salle en salle
-
-- **RG17** : L'un des personnages est un meurtrier.
----
+## Gestion des utilisateurs
+- **RG1**: Un utilisateur possède un identifiant unique.
+- **RG2**: Un utilisateur possède un pseudonyme.
+- **RG3**: Chaque utilisateur est soit maître du jeu, détective ou observateur.
+- **RG4**: Il ne peut y avoir qu'un seul maître du jeu.
+- **RG5**: Il ne peut y avoir que six détectives.
+- **RG6**: Les détectives et le maitre du jeu incarnent un personnage du jeu. 
+- **RG7**: Il n'y a pas de limite concernant le nombre d'observateurs.
