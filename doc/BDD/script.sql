@@ -18,11 +18,17 @@ ALTER USER simpluedo_admin WITH PASSWORD 'admin';
 -- 4. Création de la table 'utilisateur'
 -- ==============================================
 CREATE TABLE utilisateur(
- uuid_utilisateur UUID PRIMARY KEY DEFAULT gen_random_uuid(),
- pseudo_utilisateur VARCHAR(50) NOT NULL);
+uuid_utilisateur UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+pseudo_utilisateur VARCHAR(50) NOT NULL);
 -- ==============================================
 -- 5. Création de la table 'role'
 -- ==============================================
- CREATE TABLE role(
- id_role INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
- nom_role VARCHAR(50) NOT NULL);
+CREATE TABLE role(
+id_role INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+nom_role VARCHAR(50) NOT NULL);
+-- ==============================================
+-- 6. Création de la table 'salle'
+-- ==============================================
+CREATE TABLE salle(
+id_salle INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+nom_salle VARCHAR(50) NOT NULL);
