@@ -32,3 +32,15 @@ nom_role VARCHAR(50) NOT NULL);
 CREATE TABLE salle(
 id_salle INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
 nom_salle VARCHAR(50) NOT NULL);
+-- ==============================================
+-- 7. Création de la table 'personnage'
+-- ==============================================
+CREATE TABLE personnage(
+id_personnage INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+nom_personnage VARCHAR(50) NOT NULL);
+-- ==============================================
+-- 8. Création de la table 'objet'
+-- ==============================================
+CREATE TABLE objet(
+id_objet INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+nom_objet VARCHAR(50) NOT NULL);
