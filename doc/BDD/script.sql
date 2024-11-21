@@ -21,7 +21,7 @@ CREATE TABLE utilisateur(
  uuid_utilisateur UUID PRIMARY KEY DEFAULT gen_random_uuid(),
  pseudo_utilisateur VARCHAR(50) NOT NULL);
 -- ==============================================
--- 4. Création de la table 'role'
+-- 5. Création de la table 'role'
 -- ==============================================
  CREATE TABLE role(
  id_role INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
