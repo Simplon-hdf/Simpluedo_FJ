@@ -69,3 +69,10 @@ ALTER TABLE utilisateur
 ADD COLUMN id_personnage INTEGER,
 ADD CONSTRAINT fk_utilisateur_id_personnage
 FOREIGN KEY (id_personnage) REFERENCES personnage(id_personnage);
+-- ==================================================================
+-- 12. Ajout de la clé étrangère 'id_salle' dans la table 'objet'
+-- ==================================================================
+ALTER TABLE objet
+ADD COLUMN id_salle INTEGER,
+ADD CONSTRAINT fk_objet_id_salle
+FOREIGN KEY (id_salle) REFERENCES salle(id_salle);
