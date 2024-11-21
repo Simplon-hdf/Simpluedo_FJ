@@ -8,3 +8,10 @@
 - **RG5**: Il ne peut y avoir que six détectives.
 - **RG6**: Les détectives et le maitre du jeu incarnent un personnage du jeu. 
 - **RG7**: Il n'y a pas de limite concernant le nombre d'observateurs.
+
+## Gestion des salles
+- **RG8**: Une salle possède un identifiant unique.
+- **RG9**: Une salle possède un nom.
+- **RG10**: Il y a en tout 9 salles.
+- **RG11**: Une salle contient zéro ou plusieurs objets.
+
