@@ -5,7 +5,7 @@
 -- ==================================================================
 -- 1. Vérification si la base de données existe ou non
 -- ==================================================================
-DROP DATABASE IF EXIST simpluedo;
+DROP DATABASE IF EXISTS simpluedo;
 -- ==================================================================
 -- 2. Création de la base de données
 -- ==================================================================
@@ -56,7 +56,7 @@ id_personnages INTEGER,
 id_salles INTEGER,
 heure_arrivee TIME,
 heure_sortie TIME,
-PRIMARY KEY(id_personnages, id_salles),
+PRIMARY KEY(id_personnages, id_salles, heure_arrivee),
 FOREIGN KEY(id_personnages) REFERENCES personnages(id_personnages),
 FOREIGN KEY(id_salles) REFERENCES salles(id_salles));
 -- ==================================================================
