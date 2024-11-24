@@ -76,4 +76,4 @@ INSERT INTO visiter (id_personnages, id_salles, heure_arrivee) VALUES
 -- ==================================================================
 INSERT INTO visiter (id_personnages, id_salles, heure_arrivee, heure_sortie) VALUES 
 (1, 1, '08:30', '09:00'),
-(1, 1, '08:00', '09:00');
+(1, 1, '08:00', '09:00'); 
