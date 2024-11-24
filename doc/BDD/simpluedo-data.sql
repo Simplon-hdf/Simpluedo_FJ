@@ -66,3 +66,10 @@ INSERT INTO utilisateurs (pseudo_utilisateurs, id_roles) VALUES
 ('Yohan', 1),
 ('Aurore', 1),
 ('Gabriel', 1);
+
+INSERT INTO visiter (id_personnages, id_salles, heure_arrivee) VALUES 
+(1, 2, '08:30');
+
+INSERT INTO visiter (id_personnages, id_salles, heure_arrivee, heure_sortie) VALUES 
+(1, 1, '08:30', '09:00'),
+(1, 1, '08:00', '09:00');
