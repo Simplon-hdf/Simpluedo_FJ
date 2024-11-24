@@ -9,7 +9,19 @@
     - [1.4 MPD](doc/BDD/mpd.png)
     - [1.5 Script initialiation](doc/BDD/script.sql)
     - [1.6 Script injection de données](doc/BDD/simpluedo-data.sql)
+    - [1.7 Sauvegardes](doc/BDD/sauvegardes)
 
+## Commande exportation de la database avec pg-dump
+
+**Commande avec le chemin :**
+```
+pg_dump -h localhost -p 5432 -U justindidelot simpluedo > /Users/justindidelot/Documents/Sites/lab/simpluedo_victorious_maniacs/doc/BDD/sauvegardes/simpluedo_backup.sql  
+```
+
+**Commande sans le chemin :**
+```
+pg_dump -h localhost -p 5432 -U justindidelot simpluedo > simpluedo_backup.sql  
+```
 ## Requêtes à réaliser
 
 **- Lister tous les personnages du jeu :**
