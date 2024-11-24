@@ -1,4 +1,4 @@
-# SIMPLUEDO
+# SIMPLUEDO - VICTORIOUS MANIACS
 
 ##  SOMMAIRE
  
@@ -11,7 +11,13 @@
     - [1.6 Script injection de données](doc/BDD/simpluedo-data.sql)
     - [1.7 Sauvegardes](doc/BDD/sauvegardes)
 
-## Commande exportation de la database avec pg-dump
+## Commande pour la création de la BDD (`Script SQL`)
+
+`
+psql -U justindidelot -f /Users/justindidelot/Documents/Sites/lab/simpluedo_victorious_maniacs/doc/BDD/script.sql postgres  
+`
+
+## Commandes d'exportation de la BDD avec `pg-dump`
 
 **Commande avec le chemin :**
 ```
