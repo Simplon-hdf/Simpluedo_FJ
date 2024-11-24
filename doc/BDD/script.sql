@@ -192,7 +192,7 @@ EXECUTE FUNCTION trigger_set_heure_arrivee();
 --                              TEST
 -- ==================================================================
 
--- Insérez un personnage et une salle pour les tests
+-- Insérer un personnage et une salle pour les tests
 -- INSERT INTO personnages (nom_personnages) VALUES ('Personnage 1');
 -- INSERT INTO salles (nom_salles) VALUES ('Salle 1');
 
@@ -200,6 +200,6 @@ EXECUTE FUNCTION trigger_set_heure_arrivee();
 -- INSERT INTO visiter (id_personnages, id_salles)
 -- VALUES (1, 1);
 
--- Vérifiez les résultats
+-- Vérifier les résultats
 -- SELECT * FROM visiter;
 -- SELECT * FROM position;
