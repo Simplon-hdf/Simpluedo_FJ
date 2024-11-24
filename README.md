@@ -17,6 +17,12 @@
 psql -U justindidelot -f /Users/justindidelot/Documents/Sites/lab/simpluedo_victorious_maniacs/doc/BDD/script.sql postgres  
 `
 
+## Commande pour l'insertion des données de la BDD (`Script SQL`)
+
+`
+psql -U justindidelot -f /Users/justindidelot/Documents/Sites/lab/simpluedo_victorious_maniacs/doc/BDD/simpluedo-data.sql postgres  
+`
+
 ## Commandes d'exportation de la BDD avec `pg-dump`
 
 **Commande avec le chemin :**
