@@ -87,5 +87,5 @@ WHERE id_objets = 6;
 
 ```sql
 DELETE FROM salles 
-WHERE id_salles = 10;
+WHERE id_salles = 4;
 ```
