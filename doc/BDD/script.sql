@@ -142,15 +142,64 @@ CREATE OR REPLACE PROCEDURE ajout_objet(var_nom_objets VARCHAR, var_nom_salles V
      END IF;
  END;
  $$;
+
+ -- ==================================================================
+-- Procédure pour lister tous les objets situés dans une salle
+
+-- CALL afficher_objets_dans_salle('Salle 1');
 -- ==================================================================
--- 20. Procédure pour lister tous les objets situés dans une salle
+
+CREATE OR REPLACE PROCEDURE afficher_objets_dans_salle(nom_salle VARCHAR)
+LANGUAGE plpgsql
+AS $$
+DECLARE
+    obj RECORD; -- Variable pour stocker chaque ligne
+BEGIN
+    RAISE NOTICE 'Objets dans la salle "%":', nom_salle;
+
+    -- Boucle sur chaque ligne retournée par la fonction
+    FOR obj IN SELECT * FROM lister_objet(nom_salle)
+    LOOP
+        RAISE NOTICE '  - %', obj.nom_objets;
+    END LOOP;
+END;
+$$;
+
 -- ==================================================================
- CREATE OR REPLACE FUNCTION lister_objet(nom_salle VARCHAR)
- RETURNS TABLE(nom_objets VARCHAR)
- LANGUAGE sql
- AS $$
-    SELECT nom_objets
-    FROM objets
-    INNER JOIN salles ON salles.id_salles = objets.id_salles
-    WHERE nom_salles = nom_salle;
- $$;
+--                              TRIGGER
+-- ==================================================================
+
+CREATE OR REPLACE FUNCTION trigger_set_heure_arrivee()
+RETURNS TRIGGER AS $$
+BEGIN
+    -- Si heure_arrivee est NULL, on la remplace par l'heure actuelle
+    IF NEW.heure_arrivee IS NULL THEN
+        NEW.heure_arrivee := NOW()::TIME;
+    END IF;
+
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+-- CREATION DU TRIGGER 
+
+CREATE TRIGGER trigger_set_heure_arrivee
+BEFORE INSERT ON visiter
+FOR EACH ROW
+EXECUTE FUNCTION trigger_set_heure_arrivee();
+
+-- ==================================================================
+--                              TEST
+-- ==================================================================
+
+-- Insérer un personnage et une salle pour les tests
+-- INSERT INTO personnages (nom_personnages) VALUES ('Personnage 1');
+-- INSERT INTO salles (nom_salles) VALUES ('Salle 1');
+
+-- Test dans visiter sans spécifier heure_arrivee
+-- INSERT INTO visiter (id_personnages, id_salles)
+-- VALUES (1, 1);
+
+-- Vérifier les résultats
+-- SELECT * FROM visiter;
+-- SELECT * FROM position;
