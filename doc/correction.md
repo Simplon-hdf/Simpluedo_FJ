@@ -31,6 +31,7 @@
     - [ ] KO
     ---
 - Requêtes
+
     **- Lister tous les personnages du jeu :**
 
     - [ ] OK
@@ -70,7 +71,7 @@
 
     - [ ] OK
     - [ ] KO
-    
+
     ---
 - Executer sans erreurs
     - [ ] OK
