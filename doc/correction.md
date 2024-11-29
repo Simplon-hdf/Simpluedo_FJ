@@ -1,89 +1,94 @@
 ## Grille d'évaluation par `Boris` et `Ayoub`
 - Règles de gestion
-    - [ ] OK
+    - [x] OK
     - [ ] KO
 - Dictionnaire de données
-    - [ ] OK
+    - [x] OK
     - [ ] KO
 - MCD
-    - [ ] OK
+    - [x] OK
     - [ ] KO
 - MLD
-    - [ ] OK
+    - [x] OK
     - [ ] KO
 - MPD
-    - [ ] OK
+    - [x] OK
     - [ ] KO
 - Script de création de table
-    - [ ] OK
+    - [x] OK
     - [ ] KO
 - Script de peuplement des données
-    - [ ] OK
+    - [x] OK
     - [ ] KO
 - Exactitude des relations
     - [ ] OK
-    - [ ] KO
+    - [x] KO
 - Triggers
     - [ ] OK
-    - [ ] KO
+    - [x] KO
+
 - Procédures stockées
-    - [ ] OK
-    - [ ] KO
+    - Lister les objets
+        - [ ] OK
+        - [x] KO
+    - Ajout objet dans salle
+        - [x] OK
+        - [ ] KO
+
     ---
 - Requêtes
 
     - **Lister tous les personnages du jeu :**
-
-    - [ ] OK
+    - [x] OK
     - [ ] KO
 
     - **Lister chaque joueur et son personnage associé :**
     
-    - [ ] OK
+    - [x] OK
     - [ ] KO
 
     - **Afficher la liste des personnages présents dans la cuisine entre 08:00 et 09:00 :**
 
-    - [ ] OK
+    - [x] OK
     - [ ] KO
 
     - **Afficher les pièces où aucun personnage n'est allé :**
 
-    - [ ] OK
+    - [x] OK
     - [ ] KO
 
     - **Compter le nombre d'objets par pièce :**
 
-    - [ ] OK
+    - [x] OK
     - [ ] KO
 
     - **Ajouter une pièce :**
 
-    - [ ] OK
+    - [x] OK
     - [ ] KO
 
     - **Modifier un objet :**
 
-    - [ ] OK
+    - [x] OK
     - [ ] KO
 
     - **Supprimer une pièce :**
 
     - [ ] OK
-    - [ ] KO
+    - [x] KO
 
     ---
 - Executer sans erreurs
     - [ ] OK
-    - [ ] KO
+    - [x] KO
 - RBAC
-    - [ ] OK
+    - [x] OK
     - [ ] KO
 - Environnement Docker
     - [ ] OK
-    - [ ] KO
+    - [x] KO
 - README
     - [ ] OK
-    - [ ] KO
+    - [x] KO
 
     
