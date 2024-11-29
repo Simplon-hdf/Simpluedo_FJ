@@ -32,29 +32,45 @@
     ---
 - Requêtes
     **- Lister tous les personnages du jeu :**
+
     - [ ] OK
     - [ ] KO
+
     **- Lister chaque joueur et son personnage associé :**
+    
     - [ ] OK
     - [ ] KO
+
     **- Afficher la liste des personnages présents dans la cuisine entre 08:00 et 09:00 :**
+
     - [ ] OK
     - [ ] KO
+
     **- Afficher les pièces où aucun personnage n'est allé :**
+
     - [ ] OK
     - [ ] KO
+
     **- Compter le nombre d'objets par pièce :**
+
     - [ ] OK
     - [ ] KO
+
     **- Ajouter une pièce :**
+
     - [ ] OK
     - [ ] KO
+
     **- Modifier un objet :**
+
     - [ ] OK
     - [ ] KO
+
     **- Supprimer une pièce :**
+
     - [ ] OK
     - [ ] KO
+    
     ---
 - Executer sans erreurs
     - [ ] OK
