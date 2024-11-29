@@ -95,3 +95,20 @@ WHERE id_objets = 6;
 DELETE FROM salles 
 WHERE id_salles = 4;
 ```
+---
+## Grille d'évaluation par `Boris` et `Ayoub`
+- [ ] Règles de gestion
+- [ ] Dictionnaire de données
+- [ ] MCD
+- [ ] MLD
+- [ ] MPD
+- [ ] Script de création de table
+- [ ] Script de peuplement des données
+- [ ] Exactitude des relations
+- [ ] Triggers
+- [ ] Procédures stockées
+- [ ] Requêtes
+- [ ] Executer sans erreurs
+- [ ] RBAC
+- [ ] Environnement Docker
+- [ ] README
